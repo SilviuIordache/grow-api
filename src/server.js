@@ -1,10 +1,11 @@
 const cors = require('cors');
 const express = require('express');
 const morgan = require('morgan');
-const app = express();
+const bodyParser = require('body-parser');
 const helmet = require('helmet');
+const mainRouter = require('./router/mainRouter');
 
-const bodyParser = require('body-parser')
+const app = express();
 
 // MIDDLEWEARS
 if (process.env.NODE_ENV === 'development') {
@@ -25,5 +26,8 @@ app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
 });
+
+// mount router
+app.use(mainRouter);
 
 module.exports = app;
