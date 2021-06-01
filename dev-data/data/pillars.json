@@ -1,0 +1,60 @@
+{
+  "pillars": [
+    {
+      "name": "Love",
+      "icon": "fa-heart",
+      "description": "This is the pillar that connects us with a special someone. Feeling the need to love and be loved is a basic human need.",
+      "color": "rgba(255, 99, 132)",
+      "default": true
+    },
+    {
+      "name": "Finances",
+      "icon": "fa-coins",
+      "description": "Money is an important factor in our lives. It offers us peace of mind, stability, it can grant us the choice and the power to help others and to be able to pursue our dreams and passions.",
+      "color": "rgba(75, 192, 192)",
+      "default": true
+    },
+    {
+      "name": "Relationships",
+      "icon": "fa-user-friends",
+      "description": "Humans are social beings. Whether you are more of an introvert or an extrovert, everyone needs some sort of quality relationships in their life. Quality tends to overcome quantity when it comes to relationships. This can encompass relationships with your family, close friends, work or other",
+      "color": "rgba(255, 201, 54)",
+      "default": true
+    },
+    {
+      "name": "Career & Passion",
+      "icon": "fa-briefcase",
+      "description": "Feeling good at something builds self-confidence. Figuring a way to make money out of is a great way to boost your hapiness. When you know you are doing good at your job or with your company, you know your talent is valued.",
+      "color": "rgba(31, 143, 255)",
+      "default": true
+    },
+    {
+      "name": "Hobbies & Fun",
+      "icon": "fa-basketball-ball",
+      "description": "We all need time to unwind, relax or escape from our day-to-day stress. Various activities can help us with this: it can be something as small as reading a book, walking in the park or as big as climbing a mountain in the weekend or going bungee-jumping. Everyone has a version of unwinding. How would you rate yours?",
+      "color": "rgba(205, 130, 255)",
+      "default": true
+    },
+    {
+      "name": "Health",
+      "icon": "fa-heartbeat",
+      "description": "A healthy body is the bedrock of everything we do and plan to do in our lives. Our body is our one and only vehicles that will get us through life. That is why taking good care of it is important. Working out, outdoors time, proper nutrition and sleep are important if we wish to live long healthy lives.",
+      "color": "rgba(20, 171, 0)",
+      "default": true
+    },
+    {
+      "name": "Mind",
+      "icon": "fa-brain",
+      "description": "The same way we take care of our body, we should also take care of our minds. A healthy clear mind lets us see and achive our life goals easier. A clouded and stressed mind cannot achieve much. Meditation, prayer or talking with someone you trust, any of these can help maintain a healthy mind",
+      "color": "rgba(181, 132, 157)",
+      "default": true
+    },
+    {
+      "name": "Purpose",
+      "icon": "fa-bullseye",
+      "description": "It's important to feel that our lives have purpose and that we don't just work to live and live to work. Purpose can come in many forms. For some it's a talent they work on to bring it forward to the world, for others it's seeing the world and for others it can be to have a happy family. Whatever your purpose is, follow it daily",
+      "color": "rgba(232, 136, 72)",
+      "default": true
+    }
+  ]
+}
