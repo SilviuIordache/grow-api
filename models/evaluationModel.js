@@ -8,9 +8,8 @@ const evaluationSchema = new mongoose.Schema({
   },
   pillars: [
     {
-      pillarID: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Pillar'
+      name: {
+        type: String,
       },
       rating: {
         type: Number,
